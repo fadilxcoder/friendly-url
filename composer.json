@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "tracy/tracy": "^2.7"
+    }
+}
