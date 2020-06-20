@@ -17,8 +17,8 @@
     endfor;
 
     foreach(selectAll() as $data):
-        echo '<a href="display/' . $data['uri']  . '"> ' . $data['name'] . '</a><br>';
-        echo '<a href="mutiple-data/' . $data['id']  . '/' . $data['uri'] . '"> ' . $data['name'] . '</a><br>';
+        echo '<a target="_blank" href="display/' . $data['uri']  . '"> ' . $data['name'] . '</a><br>';
+        echo '<a target="_blank" href="mutiple-data/' . $data['id']  . '/' . $data['uri'] . '"> ' . $data['name'] . '</a><br>';
         echo '<br>';
     endforeach;
 ?>
